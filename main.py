@@ -9,7 +9,7 @@ app = Flask(__name__)
 API_KEY = "abcd1234"
 
 # Groq API configuration
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "your-groq-api-key-here")  # <-- put your Groq key here or set in Render
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")  # <-- put your Groq key here or set in Render
 MODEL = "llama3-8b-8192"
 
 # --- Middleware: check API key in URL path ---
